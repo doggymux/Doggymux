@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/xT8pdY1jyzYYU6Gpaw/giphy.gif" width="200"/>
 </div>
 
-### Hi there 👋
+### ey que tal?
 
 <!--
 **doggymux/Doggymux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
