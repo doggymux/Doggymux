@@ -1,6 +1,6 @@
 ---
 title: "Lame - HTB Writeup"
-layout: post
+layout: posts
 excerpt: "Lame es una maquina en la que se explota el servicio SMB a traves de una vulnerabilidad que permite ejecutar directamente una revershell como root."
 show_date: true
 classes: wide
