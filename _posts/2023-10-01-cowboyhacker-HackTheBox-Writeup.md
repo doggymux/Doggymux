@@ -55,7 +55,7 @@ Una vez sabemos que contraseña es la correcta para realizar el acceso podemos c
 
 <img width="1000" alt="untitled 5" src="https://user-images.githubusercontent.com/63744631/221380005-d84494de-353b-4f2b-b26e-1b43ad25df2f.png">
 
-# Escalada de privilegios 🚀
+# Escalada de privilegios
 
 Una vez dentro del usuario podemos empezar a realizar la escalada de privilegios, vamos a empezar comprobando si podemos ejecutar algun binario como sudo y ver si nos permite realizar una escalada de privilegios.
 
