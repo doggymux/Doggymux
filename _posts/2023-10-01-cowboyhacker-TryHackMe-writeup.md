@@ -5,7 +5,7 @@ excerpt: "Maquina de dificultad baja destinada a aprender a usar Hydra para atac
 show_date: true
 classes: wide
 header:
-  teaser: "https://user-images.githubusercontent.com/63744631/221379830-b8a29a0f-8be1-47de-9331-a5f990328cfb.jpeg"
+  teaser: ""
 
   teaser_home_page: true
   icon: "assets/images/icons/TryHackMe-icon.png"
