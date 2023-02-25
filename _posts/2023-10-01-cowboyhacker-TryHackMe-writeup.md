@@ -12,11 +12,7 @@ header:
 categories:
   - Writeup
   - Easy
-  - TryHackMe
 tags:
-  - Hydra
-  - SSH
-  - FTP
 ---
 
 ![Captura_de_pantalla_2023-01-10_135615](https://user-images.githubusercontent.com/63744631/221379788-1a60632e-1d68-4e75-8d46-191f8e3ed1d6.png)
