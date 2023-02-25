@@ -5,7 +5,8 @@ excerpt: "Lame es una maquina en la que se explota el servicio SMB a traves de u
 show_date: true
 classes: wide
 header:
-  teaser: "https://github.com/doggymux/Doggymux/blob/4d9fe37b9ea870daa71b753f2701750fa92fa454/assets/images/images/Teaser/Lame/teaser.png"
+  teaser: "![fb2d9f98400e3c802a0d7145e125c4ff](https://user-images.githubusercontent.com/63744631/221379077-8faa643c-3729-4623-b3bf-4a13a93a90bd.png)"
+
   teaser_home_page: true
   icon: "assets/images/icons/HackTheBox-icon.png"
 categories:
