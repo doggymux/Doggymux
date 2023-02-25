@@ -5,7 +5,7 @@ excerpt: "Maquina de dificultad baja destinada a aprender a usar Hydra para atac
 show_date: true
 classes: wide
 header:
-  teaser: "![cowboyHacker](https://user-images.githubusercontent.com/63744631/221381505-698061a5-b8ab-43f1-bcc9-ba553f77429e.jpeg)"
+  teaser: "https://user-images.githubusercontent.com/63744631/221381505-698061a5-b8ab-43f1-bcc9-ba553f77429e.jpeg"
 
 
   teaser_home_page: true
