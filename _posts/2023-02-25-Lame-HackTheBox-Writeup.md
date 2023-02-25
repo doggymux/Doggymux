@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: "https://github.com/doggymux/Doggymux/blob/4d9fe37b9ea870daa71b753f2701750fa92fa454/assets/images/images/Teaser/Lame/teaser.png"
   teaser_home_page: true
-  icon: "assets/images/icons/HackTheBox-icon.png"
+  icon: "[assets/images/icons/HackTheBox-icon.png](https://github.com/doggymux/Doggymux/blob/4d9fe37b9ea870daa71b753f2701750fa92fa454/assets/images/images/Teaser/Lame/teaser.png)"
 categories:
   - Writeup
   - Easy
