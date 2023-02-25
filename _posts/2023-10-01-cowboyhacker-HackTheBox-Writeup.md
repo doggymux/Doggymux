@@ -12,6 +12,7 @@ header:
 categories:
   - Writeup
   - Easy
+  - HackTheBox
 tags:
 ---
 
