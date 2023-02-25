@@ -1,6 +1,6 @@
 ---
 title: "cowboyhacker - THM Writeup"
-layout: post
+layout: posts
 excerpt: "Maquina de dificultad baja destinada a aprender a usar Hydra para atacar a un servicio SSH con un diccionario"
 show_date: true
 classes: wide
