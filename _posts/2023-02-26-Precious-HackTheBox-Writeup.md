@@ -13,9 +13,9 @@ categories:
   - Easy
   - Writeup
 tags:
-  - IR
-  - Bruteforce
-  - Project
+  - Web
+  - yml
+  - sudo
 
 ---
 <img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
