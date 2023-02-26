@@ -1,11 +1,11 @@
 ---
 title: "MetaTwo- HTB Writeup"
 layout: single
-excerpt: ""
+excerpt: "Maquina de HTB Facil, Wordpress con una vulnerabilidad la cual permite realizar ejecución de codigo remoto a traves de SQLi junto a una vulnerabilidad XEE"
 show_date: true
 classes: wide
 header:
-  teaser: 
+  teaser: https://user-images.githubusercontent.com/63744631/221443247-f9bf1984-026b-4620-8e64-a96072ed7779.png
   teaser_home_page: true
   icon: assets/images/icons/HackTheBox-icon.png
 categories:
@@ -13,10 +13,12 @@ categories:
   - Easy
   - Writeup
 tags:
-  - Web
-  - yml
-  - sudo
+  - XXE
+  - Wordpress
+  - SQLi
+  - GPG
 ---
+![MetaTwo](https://user-images.githubusercontent.com/63744631/221443169-2b7f767a-2e0d-4c90-a233-8100e3904f41.png)
 
 # Enumeración 🔎
 
@@ -36,7 +38,8 @@ Mientras se realiza el escaneo accedemos a la pagina y nos encontramos con una r
 
 Una vez solucionado podemos ver los siguientes datos gracias a wapalyzer, estamos ante un WordPress 5.6.2 una versión antigua por lo que es posible que tenga alguna vulnerabilidad importante, ademas nos da la información sobre el tema en uso Twenty Twenty-one
 
-![image-20230226181008647](./../assets/images/images/Machines/2023-02-27-MetaTwo-HackThe-Box-Writeup/image-20230226181008647.png)
+![image-20230226181008647](https://user-images.githubusercontent.com/63744631/221443320-9f865329-5d9a-4265-9da7-d7ba1328ac65.png)
+
 
 ```bash
 80/tcp open  http    syn-ack ttl 63 nginx 1.18.0
@@ -88,7 +91,7 @@ partylikearockstar (?)
 
 Con esta contraseña y el usuario manager conseguimos acceso al panel de administración de wordpress.
 
-![image-20230226194758567](./../assets/images/images/Machines/2023-02-27-MetaTwo-HackThe-Box-Writeup/image-20230226194758567.png)
+![image-20230226194758567](https://user-images.githubusercontent.com/63744631/221443366-030cd0b2-2fbf-40a6-b004-3b7b7b6f11a5.png)
 
 ## CVE 2021-29447
 
