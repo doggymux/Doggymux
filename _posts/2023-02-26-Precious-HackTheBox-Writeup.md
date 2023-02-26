@@ -18,7 +18,8 @@ tags:
   - sudo
 
 ---
-![Precious](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png)
+![Precious](https://user-images.githubusercontent.com/63744631/221443616-036d6057-da81-44a7-9483-c4f17e770d76.png)
+
 
 # Enumeración 🔎
 
@@ -58,7 +59,7 @@ Como podemos ver en el resultado de la busqueda tenemos una redirección en el p
 
 Para acceder se puede modificar el fichero hosts para que la resolución se realice en nuestro propio equipo y ganar acceso a la pagina.
 
-![Webpage1](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226114005541.png)
+![Website1](https://user-images.githubusercontent.com/63744631/221443679-5ac1748b-3dbe-4e2b-aba0-c0bfecbcd079.png)
 
 ## Explotación 🔑
 
@@ -71,11 +72,11 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 10.129.228.98 - - [26/Feb/2023 11:47:58] "GET /smbscan HTTP/1.1" 200 -
 ```
 
-![Website2](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115058616.png)
+![Website2](https://user-images.githubusercontent.com/63744631/221443685-341c0660-dacc-43cc-b294-a950174389cb.png)
 
 Podemos mirar dentro de las propiedades del archivo desde el propio navegador y se puede ver la aplicación con la que se ha creado.
 
-![Propiedadespdf](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115632401.png)
+![Metadata](https://user-images.githubusercontent.com/63744631/221443693-6881ff15-7e54-44cb-87b3-6518b044193a.png)
 
 Una vez conseguido el nombre de la aplicación podemos buscar si la versión que corre en el servidor tiene algun exploit, haciendo una busqueda en internet podemos encontrar que es vulnerable a command injection. Podemos hacer una pequeña prueba haciendo un sleep 5 si el servidor se demora en devolver la pagina web habremos confirmado que es vulnerable.
 
@@ -434,5 +435,3 @@ root@precious:/home/henry# cat /root/root.txt ; cat user.txt
 fXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX3
 root@precious:/home/henry#
 ```
-
->>>>>>> 1894349bd16d1efbd38b224e2ea3fbabac07d98a
