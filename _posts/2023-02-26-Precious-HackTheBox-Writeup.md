@@ -18,9 +18,7 @@ tags:
   - sudo
 
 ---
-<img src="https://github.com/doggymux/Doggymux/blob/fde91479a5fa34620bfcbf1b2cad10e0b7772074/assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
-
-<img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" />
+![Precious](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png)
 
 # Enumeración 🔎
 
