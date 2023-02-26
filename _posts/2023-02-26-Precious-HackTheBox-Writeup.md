@@ -5,9 +5,9 @@ excerpt: "Maquina HTB de dificultad facil, en esta maquina se ve como realizar u
 show_date: true
 classes: wide
 header:
-  teaser: 
+  teaser: https://user-images.githubusercontent.com/63744631/221410290-68454d65-cce6-465a-8eaa-80437dcf79a6.png
   teaser_home_page: true
-  icon: 
+  icon: assets/images/icons/HackTheBox-icon.png
 categories:
   - HackTheBox
   - Easy
@@ -18,6 +18,7 @@ tags:
   - sudo
 
 ---
+<img src="https://github.com/doggymux/Doggymux/blob/fde91479a5fa34620bfcbf1b2cad10e0b7772074/assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
 
 <img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" />
 
@@ -59,7 +60,7 @@ Como podemos ver en el resultado de la busqueda tenemos una redirección en el p
 
 Para acceder se puede modificar el fichero hosts para que la resolución se realice en nuestro propio equipo y ganar acceso a la pagina.
 
-![Webpage1](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226114005541.png)
+![Webpage1](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226114005541.png)
 
 ## Explotación 🔑
 
@@ -72,11 +73,11 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 10.129.228.98 - - [26/Feb/2023 11:47:58] "GET /smbscan HTTP/1.1" 200 -
 ```
 
-![Website2](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226115058616.png)
+![Website2](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115058616.png)
 
 Podemos mirar dentro de las propiedades del archivo desde el propio navegador y se puede ver la aplicación con la que se ha creado.
 
-![Propiedadespdf](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226115632401.png)
+![Propiedadespdf](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115632401.png)
 
 Una vez conseguido el nombre de la aplicación podemos buscar si la versión que corre en el servidor tiene algun exploit, haciendo una busqueda en internet podemos encontrar que es vulnerable a command injection. Podemos hacer una pequeña prueba haciendo un sleep 5 si el servidor se demora en devolver la pagina web habremos confirmado que es vulnerable.
 
