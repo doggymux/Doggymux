@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Precious - HTB Writeup"
 layout: single
