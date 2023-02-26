@@ -18,7 +18,7 @@ tags:
   - sudo
 
 ---
-<img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
+<img src="https://github.com/doggymux/Doggymux/blob/fde91479a5fa34620bfcbf1b2cad10e0b7772074/assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
 
 # Enumeración
 
@@ -58,7 +58,7 @@ Como podemos ver en el resultado de la busqueda tenemos una redirección en el p
 
 Para acceder se puede modificar el fichero hosts para que la resolución se realice en nuestro propio equipo y ganar acceso a la pagina.
 
-![Webpage1](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226114005541.png)
+![Webpage1](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226114005541.png)
 
 Creamos un servidor de python3 en nuestro equipo para que la maquina pueda tener una URL funcional de la cual tendremos control. Si escribimos la IP y puerto de la maquina podremos acceder a este desde la pagina web y crear archivos pdf.
 
@@ -69,11 +69,11 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 10.129.228.98 - - [26/Feb/2023 11:47:58] "GET /smbscan HTTP/1.1" 200 -
 ```
 
-![Website2](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226115058616.png)
+![Website2](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115058616.png)
 
 Podemos mirar dentro de las propiedades del archivo desde el propio navegador y se puede ver la aplicación con la que se ha creado.
 
-![Propiedadespdf](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226115632401.png)
+![Propiedadespdf](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/image-20230226115632401.png)
 
 Una vez conseguido el nombre de la aplicación podemos buscar si la versión que corre en el servidor tiene algun exploit, haciendo una busqueda en internet podemos encontrar que es vulnerable a command injection. Podemos hacer una pequeña prueba haciendo un sleep 5 si el servidor se demora en devolver la pagina web habremos confirmado que es vulnerable.
 
