@@ -18,7 +18,8 @@ tags:
   - sudo
 
 ---
-![Precious](./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png)
+
+![Precious](https://user-images.githubusercontent.com/63744631/221415195-6ef69308-7a97-474e-9d99-aea922038d8a.png)
 
 # Enumeración 🔎
 
