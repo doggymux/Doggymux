@@ -13,13 +13,15 @@ categories:
   - Easy
   - Writeup
 tags:
-  - IR
-  - Bruteforce
-  - Project
+  - Web
+  - yml
+  - sudo
 
 ---
 
-# Enumeración
+<img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" />
+
+# Enumeración 🔎
 
 Como siempre realizamos una pequeña enumeración rápida con el siguiente comando buscando cualquier puerto abierto.
 
@@ -58,6 +60,8 @@ Como podemos ver en el resultado de la busqueda tenemos una redirección en el p
 Para acceder se puede modificar el fichero hosts para que la resolución se realice en nuestro propio equipo y ganar acceso a la pagina.
 
 ![Webpage1](./../assets/images/images/Machines/2023-02-25-Precious-HackTheBox-Writeup/image-20230226114005541.png)
+
+## Explotación 🔑
 
 Creamos un servidor de python3 en nuestro equipo para que la maquina pueda tener una URL funcional de la cual tendremos control. Si escribimos la IP y puerto de la maquina podremos acceder a este desde la pagina web y crear archivos pdf.
 
@@ -100,7 +104,7 @@ $
 
 El usuario que hemos adquirido haciendo la explotación no nos permite acceder a ninguna flag por lo que tendremos que realizar una escalada de privilegios para adquirirlas.
 
-## Escalada de privilegios
+## Escalada de privilegios 🚀
 
 Dentro de la maquina con ruby no podremos hacer mucho por lo que deberemos de investigar la maquina por si hubiera alguna contraseña en claro, buscando por el directorio web no se encuentra nada pero en la carpeta /home/ruby podemos encontrar una carpeta oculta .bundle el cual contiene la contraseña de henry.
 
