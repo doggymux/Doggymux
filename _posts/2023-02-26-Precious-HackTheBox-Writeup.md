@@ -5,9 +5,9 @@ excerpt: "Maquina HTB de dificultad facil, en esta maquina se ve como realizar u
 show_date: true
 classes: wide
 header:
-  teaser: 
+  teaser: https://user-images.githubusercontent.com/63744631/221410290-68454d65-cce6-465a-8eaa-80437dcf79a6.png
   teaser_home_page: true
-  icon: 
+  icon: assets/images/icons/HackTheBox-icon.png
 categories:
   - HackTheBox
   - Easy
@@ -18,6 +18,7 @@ tags:
   - Project
 
 ---
+<img src="./../assets/images/images/Machines/2023-02-26-Precious-HackTheBox-Writeup/Precious.png" alt="Precious" style="zoom: 33%;" align="center" />
 
 # Enumeración
 
